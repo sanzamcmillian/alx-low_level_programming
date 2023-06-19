@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	int n ;
-	char ch ;
+	int n;
+	char ch;
 
 	for (n = 0 ; n < 10 ; n++)
 	{
