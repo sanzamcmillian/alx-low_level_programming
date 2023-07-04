@@ -4,9 +4,8 @@
  *_memcpy - copies memory area
  *@dest: array with zeros to be modified
  *@src: array with natural numbers
- *@n: last parameter with constant ten
- *
- *Returns: parameter
+ *@n:  constant ten
+ *Returns: chararcters
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
