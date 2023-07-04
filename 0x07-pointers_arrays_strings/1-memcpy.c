@@ -6,7 +6,7 @@
  *@src: array with natural numbers
  *@n: last parameter with constant ten
  *
- *Returns: dest
+ *Returns: parameter
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
