@@ -4,7 +4,7 @@
  *_memcpy - copies memory area
  *@dest: buffer one
  *@src: buffer two
- *@n: counter 
+ *@n: counter
  *
  *Returns: dest
  */
