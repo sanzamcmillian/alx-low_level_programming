@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *_memset - changes the output for simple_print_buffer
- *@s first parameter that is deferenced
- *@b constant parameter
- *@n the counter
+ *_memset - fills memory with constant byte
+ *@s: first parameter that is deferenced
+ *@b: constant parameter
+ *@n: the counter
  *Return: s as a pointer
  */
 
