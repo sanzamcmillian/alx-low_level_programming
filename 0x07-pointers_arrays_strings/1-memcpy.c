@@ -2,9 +2,9 @@
 
 /**
  *_memcpy - copies memory area
- *@dest: buffer one
- *@src: buffer two
- *@n: counter
+ *@dest: array with zeros to be modified
+ *@src: array with natural numbers
+ *@n: last parameter with constant ten
  *
  *Returns: dest
  */
