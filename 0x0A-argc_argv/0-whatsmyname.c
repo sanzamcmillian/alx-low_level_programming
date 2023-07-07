@@ -3,7 +3,7 @@
 
 /**
  *whatsmyname - prints its name
- * 
+ *
  *@argc: number of commands
  *@argv: strings in the program
  *Return: Always 0
