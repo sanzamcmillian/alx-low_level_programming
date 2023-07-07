@@ -6,7 +6,7 @@
  *args - number of agruments passed in
  *
  *@argc: number of commands passed in
- *@argv: strings passed in 
+ *@argv: strings passed in
  *Return: always 0
  */
 
