@@ -10,7 +10,7 @@
  *Return: 0(success)
  */
 
-int check_num(chhar *str)
+int check_num(char *str)
 {
 	unsigned int count;
 
@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
 	{
 		if (check_num (argv[count]))
 		{
-			str_to_int = atoi(argv[count];
+			str_to_int = atoi(argv[count]);
 			sum = sum + str_to_int;
 		}
 		else
