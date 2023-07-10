@@ -10,7 +10,7 @@
  *Return: 0(success) and 1(failure)
  */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int sum = 0;
 	if (argc < 3 || argc > 4)
@@ -21,5 +21,5 @@ int main(int argc, char* argv[])
 	sum  = atoi(argv[1]) * atoi(argv[2]);
 	printf("%d\n", sum);
 	return (0);
-	
+
 }
