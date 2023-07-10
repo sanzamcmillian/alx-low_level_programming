@@ -1,34 +1,59 @@
 #include <stdlib.h>
-#include "main.h"
 #include <stdio.h>
+#include <ctype.h>
+#include <string.h>
 
 /**
- *args2 - adds positive numbers
+ *check_num - checks if string is a digit
+ *
+ *@str:  array str
+ *Return: 0(success)
+ */
+
+int check_num(chhar *str)
+{
+	unsigned int count;
+
+	count = 0;
+	while (count < strlen(str))
+	{
+		if (!isdigit(str[count]))
+		{
+			return (0);
+		}
+		count++;
+	}
+	return (1);
+}
+/**
+ *main - adds positive numbers
  *
  *@argc:  number of commands
  *@argv:  strings received
  *Return: 0(success) and 1(failure)
  */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
-	int i;
+	int count;
+	int str_to_int;
 	int sum = 0;
 	
-	for (i = 0;i < argc;i++)
+	count = 1;
+	while (count < argc)
 	{
-
-		if (argc < 2)
+		if (check_num (argv[count]))
 		{
-			printf("%d\n", 0);
+			str_to_int = atoi(argv[count];
+			sum = sum + str_to_int;
 		}
-		else if (argv[i] >= "a" && argv[i] <= "z")
+		else
 		{
 			printf("Error\n");
 			return (1);
 		}
-		sum += atoi(argv[i + 1]);
+		count++;
 	}
 	printf("%d\n", sum);
-        return (0);
+	return (0);
 }
