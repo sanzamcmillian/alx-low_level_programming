@@ -1,13 +1,12 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- *args - number of agruments passed in
+ *main - print the number of agruments passed in
  *
- *@argc: number of commands passed in
- *@argv: strings passed in
- *Return: always 0
+ *@argc: number of arguments passed in
+ *@argv: array of arguments
+ *Return: Always 0
  */
 
 int main(int argc, char* argv[])
