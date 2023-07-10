@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- *args2 - multiples two numbers
+ *main - multiplies two numbers
  *
- *@argc:  number of commands
- *@argv:  strings received
+ *@argc:  number of arguments
+ *@argv:  array of arguments
  *Return: 0(success) and 1(failure)
  */
 
