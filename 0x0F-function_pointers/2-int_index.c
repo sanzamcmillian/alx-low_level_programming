@@ -4,9 +4,9 @@
  *int_index - searches for an integer
  *@*array: the list of integers
  *@size: size of the array
- *@*cmp: function pointer to be used
+ *@cmp: function pointer to be used
  *
- *Return: -1(for no matches), any int otherwise
+ *Return: 0
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
