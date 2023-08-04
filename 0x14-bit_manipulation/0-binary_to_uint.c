@@ -2,7 +2,7 @@
 
 /**
  *binary_to_uint - converts binary number to an integer of base 10
- *@b: string containing the binary number to be converted 
+ *@b: string containing the binary number to be converted
  *
  *Return: the converted number
  */
