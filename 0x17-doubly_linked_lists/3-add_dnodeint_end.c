@@ -3,7 +3,7 @@
 /**
  *add_dnodeint_end - add new node at the end of a double linked list
  *
- *@head: head of the list 
+ *@head: head of the list
  *@n: value of the element
  *Return: returns the address of the new element or NULL if failed
  */
